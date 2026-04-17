@@ -1,0 +1,81 @@
+# ============================================================
+# Data files - never push to GitHub
+# ============================================================
+# Kaggle data cannot be redistributed. Users must download from Kaggle directly.
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.pkl
+data/processed/*.parquet
+
+# Keep the folders themselves so the structure is preserved on GitHub
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ============================================================
+# Trained models - too large for GitHub
+# ============================================================
+models/*.pkl
+models/*.joblib
+models/*.json
+!models/.gitkeep
+
+# ============================================================
+# Kaggle submission files - too many, keep local
+# ============================================================
+submissions/*.csv
+!submissions/.gitkeep
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================================
+# Jupyter Notebook
+# ============================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ============================================================
+# Virtual environments
+# ============================================================
+venv/
+env/
+ENV/
+.venv/
+
+# ============================================================
+# IDE / Editor files
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ============================================================
+# OS files
+# ============================================================
+Thumbs.db
+desktop.ini
