@@ -80,13 +80,11 @@ pip install -r requirements.txt
 
 ## Results
 
-*To be updated as the project progresses.*
-
 | Model | CV Accuracy | Kaggle Public Score |
 |-------|-------------|---------------------|
-| Logistic Regression (baseline) | TBD | TBD |
-| Random Forest | TBD | TBD |
-| XGBoost (tuned) | TBD | TBD |
+| Logistic Regression (baseline) | 79.26% | — |
+| Random Forest | 79.78% | — |
+| XGBoost (tuned) | 80.41% | **0.80383** |
 
 ---
 
